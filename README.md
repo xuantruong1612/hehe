@@ -5,7 +5,7 @@ exercises = {
     "Có": "Bạn có yêu tôi không?",
 }
 
-# Lệnh để đoán
+# Lệnh trả lời câu hỏi
 for exercise, description in exercises.items():
     print(f"Câu hỏi: {description}")
     guess = input("Câu trả lời của bạn là: ")
